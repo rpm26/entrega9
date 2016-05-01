@@ -14,7 +14,7 @@ es <%= result %>.
   </p>
 
   <p>
-     <a href="/question"> Inténtelo otra vez </a>
+     <a href="/question?answer=<%= answer %>"> Inténtelo otra vez </a>
   </p>
 
   </body>
