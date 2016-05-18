@@ -24,7 +24,7 @@
       <nav class="main" role="navigation">
         <a href="/">Inicio</a>
         <a href="/question">Preguntas</a>
-        <a href="/creditos">Página de créditos</a>
+	<a href="/author">Página de créditos</a>
       </nav>
 
       <section class="main">
@@ -36,8 +36,8 @@
     <footer class="main">
       <a href="http://es.wikipedia.org/wiki/Quiz">
         ¿Que es un Quiz?</a>
-      <a href="https://github.com/nachorg22/quiz.git">
-        Mi proyecto Quiz</a>
+      <a href="https://github.com/rpm26/entrega9.git">
+        Mi proyecto</a>
     </footer>
   </div>
 </body> 
