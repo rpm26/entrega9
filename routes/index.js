@@ -20,5 +20,7 @@ router.post('/quizzes',quizController.create);
 router.get('/author', function(req, res, next) {
   res.render('author');
 });
+router.get('/quizzes/:quizId(\\d+)/edit',  quizController.edit);
+router.put('/quizzes/:quizId(\\d+)',       quizController.update);
 
 module.exports = router;
