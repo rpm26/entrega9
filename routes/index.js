@@ -13,6 +13,8 @@ router.get('/', function(req, res, next) {
 router.get('/quizzes',                     quizController.index);
 router.get('/quizzes/:quizId(\\d+)',       quizController.show);
 router.get('/quizzes/:quizId(\\d+)/check', quizController.check);
-
+router.get('/author', function(req, res, next) {
+  res.render('author');
+});
 
 module.exports = router;
