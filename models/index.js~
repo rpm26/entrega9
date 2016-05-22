@@ -51,7 +51,3 @@ sequelize.sync()
 
 
 exports.Quiz = Quiz; // exportar definición de tabla Quiz
-
-    Status API Training Shop Blog About 
-
-
