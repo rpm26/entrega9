@@ -4,7 +4,7 @@
       Pregunta: <%= quiz.question %>
     </p>
 
-<% if (quiz.Attachment) { %>
+    <% if (quiz.Attachment) { %>
       <img src="<%= quiz.Attachment.url %>" />
     <% } else { %> 
       <img src="/imgs/question.png" width="50px" />
@@ -29,7 +29,8 @@
        if (comment.accepted) { %>
 
            <li> <%= comment.text %> </li>
-
+		Autor:
+		<p> <%= comment.AuthorId %> </p>
        <% } else if (session.user && 
                      (session.user.isAdmin || (quiz.AuthorId === session.user.id))) { %>
            <li> <%= comment.text %> </li>
